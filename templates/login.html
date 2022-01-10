@@ -1,0 +1,15 @@
+{% extends 'template.html' %}
+
+{% block title %}
+Вход на сайт
+{% endblock title %}
+{% block body %}
+<h2>Введите логин и пароль</h2>
+<form action="/signin" method="POST">
+  <label for="user">Логин:</label><br>
+  <input type="text" id="user" name="user" placeholder="Мёртвый"><br>
+  <label for="pass">Пароль:</label><br>
+  <input type="password" id="pass" name="pass" placeholder="Анархист"><br><br>
+  <input type="submit" value="Войти">
+</form>
+{% endblock %}

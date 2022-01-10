@@ -1,0 +1,4 @@
+admin:P@ssw0rd
+user:12345
+guest:qwerty
+punk:Gorsh0k!

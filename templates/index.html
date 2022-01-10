@@ -1,0 +1,14 @@
+{% extends 'template.html' %}
+
+{% block title %}
+Название страницы
+{% endblock title %}
+{% block body %}
+<h2>Всем привет</h2>
+<h3>я только проснулся</h3>
+<a href="#" onclick="alert('Внимание!\nВы арестованы за просмотр мемов\nПлатите штраф 500 денег')">Здесь мемы</a>
+<form action="/login">
+    <input type="submit" value="Вводи логин" />
+</form>
+
+{% endblock %}
